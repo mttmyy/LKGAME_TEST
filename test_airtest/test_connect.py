@@ -23,3 +23,6 @@ class Test_connect:
     def test_init_device(self):
         #init_device 接口只需要传入 设备平台和设备的uuid 即可，参数详情可以查看下图：
         init_device(platform="Android", uuid="SJE5T17B17")
+
+    def test_setcurrent(self):
+        pass
